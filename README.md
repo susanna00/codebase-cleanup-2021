@@ -17,7 +17,7 @@ Copy the default products inventory (then optionally customize the resulting "pr
 cp data/default_products.csv data/products.csv
 ```
 
-Obtain your own [AlphaVantage API Key](https://www.alphavantage.co/support/#api-key), then create a new file called ".env" and place the following contents inside, replcing the placeholder with your own API Key:
+Obtain your own [AlphaVantage API Key](https://www.alphavantage.co/support/#api-key), then create a new file called ".env" and place the following contents inside, replacing the placeholder with your own API Key:
 
 ```sh
 # this is the .env file...
