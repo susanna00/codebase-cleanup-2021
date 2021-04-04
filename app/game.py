@@ -1,6 +1,7 @@
 
 from random import choice
 
+
 """
 Assigning "rock", "paper", "scissors" as the valid options to refactor duplicate code.
 """
