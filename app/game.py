@@ -1,12 +1,17 @@
 
 from random import choice
 
+"""
+Assigning "rock", "paper", "scissors" as the valid options to refactor duplicate code.
+"""
+
+
 VALID_OPTIONS = ["rock", "paper", "scissors"]
 
 def determine_winner(choice1, choice2):
     """
     We are expecting two parameters: 
-        choice1 and choice2, both are strings : one of "rock", "paper", "scissors"
+        choice1 and choice2. They are both strings : one of "rock", "paper", or "scissors".
     """
     winners = {
         "rock":{
@@ -30,11 +35,10 @@ def determine_winner(choice1, choice2):
 
 
 if __name__ == '__main__':
-    pass
+    
     #
     # USER SELECTION
     #
-
    
     u = input("Please choose one of 'Rock', 'Paper', or 'Scissors': ").lower()
     print("USER CHOICE:", u)
